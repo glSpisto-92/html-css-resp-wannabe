@@ -76,28 +76,45 @@ img {
 
 @media screen and (max-width:420px) {
 
-  h1{
-    font-size:32px;
-    border: 1px solid black;
-    background: lightgrey;
-    color: black;
+h1{
+  display: inline-block;
+  font-size:30px;
+  padding: 10px;
+  border: 1px solid black;
+  background: lightgrey;
+  color: black;
   }
 
-  img{
-    padding: 20px;
+  h3{
+    font-size: 24px;
   }
+
+img{
+  padding: 25px;
+}
+
+.row{
+  margin-top: 50px;
+  /* text-align: center; */
+  background: white;
+}
 
 #lezioni .row .left, #lezioni .row .right{
   width: 100%;
+  display: block;
+  background: lightgrey;
+  margin-bottom: 30px;
 }
-
-
-
 
 #steps .row .left, #steps .row .right, #steps .row .central{
-  width: 80%;
+  width: 100%;
+  background: lightgreen;
+  margin-bottom: 30px;
 }
 
-
+#why .row .first, #why .row .second, #why .row .third{
+  width: 100%;
+  background: lightblue;
+}
 
 }
